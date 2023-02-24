@@ -29,6 +29,9 @@
     --form-main-bg-color: #1E2A47;
     --placeholder-color: #fff;
 }
+.hidden {
+    display: none;
+}
 html {
     height: 100%;
 }
