@@ -17,22 +17,25 @@
         <form id="form">
             <span>
                 <img src="img/svg/search.svg" alt="">
-                <input type="text" placeholder="Search GitHub username…">
+                <input type="text" placeholder="Search GitHub username…" autofocus>
             </span>
-            <div class="form-btn">Search</div>
+            <div class="header-right-box">
+                <h3></h3>
+                <div id="btn" class="form-btn">Search</div>
+            </div>
         </form>
         <main>
             <div class="main-header">
                 <span class="main-span-1">            
-                    <img src="img/png/cat.png" alt="">
+                    <img id="user" src="img/png/cat.png" alt="">
                     <span class="main-span-2">
-                        <h2>The Octocat </h2>
+                        <h2 id="user-name" >The Octocat </h2>
                         <h3>@octocat</h3>
-                        <p>This profile has no bio</p>
+                        <p id="bio">This profile has no bio</p>
                     </span>
                 </span>
                 <span class="main-span-3">
-                    <h2>Joined 25 Jan 2011</h2>
+                    <h2>Joined <span id="day">25</span> <span id="month">Jan</span> <span id="year">2011</span> </h2>
                 </span>
             </div>
             <span class="res-span">
@@ -43,15 +46,15 @@
                     <div class="views">
                     <span>
                         <h2>Repos</h2>
-                        <p>8</p>
+                        <p id="post" >8</p>
                     </span>
                     <span>
                         <h2>Followers</h2>
-                        <p>3938</p>
+                        <p id="follower">3938</p>
                     </span>
                     <span>
                         <h2>Following</h2>
-                        <p>9</p>
+                        <p id="following" >9</p>
                     </span>
                     </div>
                 </div>
@@ -60,21 +63,21 @@
                         <span class="father">
                             <span>
                                 <img src="img/svg/location.svg" alt="">
-                                <p>San Francisco</p>
+                                <p id="location" >San Francisco</p>
                             </span>
-                            <span>
+                            <span class="update ">
                                 <img src="img/svg/clone.svg" alt="">
-                                <p>https://github.blog</p>
+                                <p id="gitUrl" >https://github.blog</p>
                             </span>
                         </span>
                         <span class="father">
                             <span>
                                 <img src="img/svg/twitter.svg" alt="">
-                                <p>Not Available</p>
+                                <p id="twitter">Not Available</p>
                             </span>
                             <span>
                                 <img src="img/svg/office.svg" alt="">
-                                <p>@github</p>
+                                <p id="company">@github</p>
                             </span>
                         </span>
                     </div>
